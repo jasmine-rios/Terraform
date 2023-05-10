@@ -8,6 +8,6 @@ It acts as IaC (Infrastructure as code) to make deploying all cloud resources in
 
 ## What's in here? 
 
-* Preqs to Installing Terraform 
-* Commands to Install Terraform in Terminal
-* Terraform Code
+1. Preqs to Install Terraform on Mac
+2. Install Terraform with Brew
+3. Terraform Code
