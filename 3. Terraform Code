@@ -1,3 +1,17 @@
 # Terraform Code
 
-## 
+## Syntax of Terraform Commands
+
+terraform [global options] <subcommand> [args]
+
+## Create your first thing in Terraform
+
+1. In terminal use this command to clone a repo by Terraform to launch something small and cool.
+
+git clone https://github.com/hashicorp/tfc-getting-started.git
+
+2. Run these commands in terminal to start up a script to perform your Terraform Cloud run:  
+
+cd tfc-getting-started
+
+./scripts/setup.sh
