@@ -1,0 +1,27 @@
+# Preqs to Install Terraform on Mac
+
+## Install Brew
+
+You have to install Brew which is a package manager that will allow you to get whatever you want on your Mac Terminal. Whatever package you need, it has. 
+
+### Steps to Install Brew
+
+1. While logged into your Mac computer and signed in, navigate to the magnifing glass in the top right. 
+
+2. A little bar should appear that says Spotlight Search, type in Terminal
+
+3. (Optional) With Terminal open on your Mac, right-click the mouse on the terminal app in the dock. The dock is at the bottom of the Mac Screen. 
+With the options box open click Options> Keep in Dock. This allows you to find terminal easier then finding it each time.
+
+4. While in the home directory of the terminal use these commands to install brew (the command cd ~ will help you to go to home directory):
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+5. Allow it to install then run this to make sure you have Brew:
+
+brew --version
+
+Congrats! Brew is installed.
+
+
+
