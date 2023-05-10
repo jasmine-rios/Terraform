@@ -11,3 +11,17 @@ brew install hashicorp/tap/terraform
 2. Check to see if Terraform actually installed run this command
 
 terraform --version
+
+3. Now log in to terraform using this command 
+
+terraform login
+
+4. Type yes
+
+5. In browser that just popped up, you will be asked to create a token. Create the token with a memorable name and copy the token.
+
+6. Go to the terminal and paste that code in there.
+
+Welcome to Terraform Cloud.
+
+Proceed on to the next step to learn how to code with Terraform. 
