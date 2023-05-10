@@ -23,6 +23,15 @@ brew --version
 
 Congrats! Brew is installed.
 
+## Install jq on Brew
+
+1. Run this command to install jq utility (will be needed in part 3):
+
+brew install jq
+
+2. Make sure jq is installed by running this command:
+jq --version
+
 ## Terraform account
 
 1. You must have a terraform account at https://app.terraform.io/app/getting-started with your email verified. This will help on part 2.
