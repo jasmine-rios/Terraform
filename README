@@ -1,0 +1,13 @@
+# Terraform
+
+## Introduction
+
+Terraform is a software that you can use with many cloud service providers (CSP) such as Azure, AWS, or GCP to create resources such as ec2 instances. 
+Using terraform allows you to make sure all your resources are properly deployed in minutes and can be used in automation. 
+It acts as IaC (Infrastructure as code) to make deploying all cloud resources in your account so you don't have to worry about messing it up in the console.
+
+## What's in here? 
+
+* Preqs to Installing Terraform 
+* Commands to Install Terraform in Terminal
+* Terraform Code
