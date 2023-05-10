@@ -1,0 +1,13 @@
+# Install Terraform
+
+## Steps to Install
+
+1. With the terminal open, use these commands with Brew (Software installed in last step) to install Terform:
+
+brew tap hashicorp/tap
+
+brew install hashicorp/tap/terraform
+
+2. Check to see if Terraform actually installed run this command
+
+terraform --version
