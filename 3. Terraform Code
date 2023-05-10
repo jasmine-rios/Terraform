@@ -4,7 +4,12 @@
 
 terraform [global options] <subcommand> [args]
 
-## Create your first thing in Terraform
+## Create your Terraform Cloud
+
+"Terraform Cloud offers secure, easy-to-use remote state management and allows
+you to run Terraform remotely in a controlled environment. Terraform Cloud runs
+can be performed on demand or triggered automatically by various events." -Terraform 
+
 
 1. In terminal use this command to clone a repo by Terraform to launch something small and cool.
 
@@ -15,3 +20,9 @@ git clone https://github.com/hashicorp/tfc-getting-started.git
 cd tfc-getting-started
 
 ./scripts/setup.sh
+
+3. Press any key will it tell you to when setting up the script. It will set up a Terraform cloud which runs Terraform on disposable virtual machines in
+its own cloud infrastructure. It sets up the organization, workspace (named 'getting-started) that you can access with the link it gives you. 
+It also will create a database, load balancers, servers, and a VPC. This is of no cost to you. 
+
+You now have provisioned infrastructure with Terraform Cloud!
